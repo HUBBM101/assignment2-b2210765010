@@ -78,7 +78,7 @@ with open('doctors_aid.inputs .txt','r') as rf:#open and read input files
             
            
             if get_order[0]=='create':                     #
-                wf.write("Patient %s is created.\n"%(name))# 
+                wf.write("Patient %s is recorded.\n"%(name))# 
                                                            #
                                                            #
             if get_order[0]=='remove':                     #this conditions understands the command and call the functions or directly write a sentences to output file.
